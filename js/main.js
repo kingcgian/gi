@@ -18,25 +18,25 @@ document.addEventListener('click', (e) => {
 // Sample featured projects data
 const featuredProjects = [
     {
-        title: 'Project 1',
-        description: 'A brief description of project 1',
-        image: 'images/project1.jpg',
-        tags: ['Web', 'JavaScript', 'React'],
-        link: '#'
+        title: 'OptiCare Eyewear Website',
+        description: '"OptiCare is dedicated to providing top-quality eyewear and vision solutions tailored to your needs. We offer a curated selection of stylish and functional eyewear from leading brands, ensuring both comfort and clarity. Our commitment to excellence means you can expect expert guidance, premium lenses, and frames designed for everyday wear and performance. Whether youre seeking prescription glasses, stylish sunglasses, or advanced lens technology, we are here to help you find the perfect solution. "',
+        image: 'images/echode.png',
+        tags: ['Web', 'Vue.js', 'Laravel'],
+        link: 'https://opticare.website/#/'
     },
     {
-        title: 'Project 2',
-        description: 'A brief description of project 2',
-        image: 'images/project2.jpg',
+        title: 'San Nicholas Academy Enrollment System',
+        description: '"The San Nicholas Academy Enrollment System is a streamlined and user-friendly platform designed to simplify student registration and enrollment. With an intuitive interface, it allows students and parents to complete the enrollment process efficiently, track application status, and access important school updates. Built for convenience and accuracy, the system ensures a hassle-free experience while maintaining secure and organized student records."',
+        image: 'images/SNA.jpg',   
         tags: ['Mobile', 'React Native'],
         link: '#'
     },
     {
-        title: 'Project 3',
-        description: 'A brief description of project 3',
-        image: 'images/project3.jpg',
+        title: 'Franchise List Website',
+        description: '"Our Franchise List is dedicated to offering you top-tier business opportunities designed for growth and success. We feature a curated selection of franchises from leading brands, ensuring you have access to proven business models that align with your investment goals. Our commitment to excellence means you’ll receive comprehensive support, a strong brand foundation, and the tools you need to thrive as a business owner. At [Your Company], your entrepreneurial journey is our priority."',
+        image: 'images/FranchisList.png',
         tags: ['UI/UX', 'Design'],
-        link: '#'
+        link: '#https://orange-meadow-0d7d2cc00.6.azurestaticapps.net/franchiseList.html'
     }
 ];
 
@@ -53,7 +53,7 @@ const latestPosts = [
         title: 'Modern JavaScript Features',
         excerpt: 'Explore the latest features in JavaScript and how to use them...',
         date: '2024-02-28',
-        image: 'images/blog2.jpg',
+        image: 'images/feb 14.png',
         link: 'blog-post.html?id=2'
     },
     {
@@ -150,7 +150,7 @@ function displayLatestBlogPosts() {
                             <span class="post-date">${formatDate(post.date)}</span>
                             <span class="read-time">${post.readTime} read</span>
                         </div>
-                        <p class="post-excerpt">${post.excerpt.substring(0, 120)}...</p>
+                        <p class="post-excerpt">${post.excerpt.substring(0, 100)}...</p>
                     </div>
                 </div>
             `;

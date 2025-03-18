@@ -4,7 +4,7 @@ const portfolioProjects = [
         id: 1,
         title: "E-commerce Website",
         description: "A full-featured e-commerce platform built with React and Node.js",
-        image: "images/projects/ecommerce.jpg",
+        image: "images/echode.png",
         category: "web",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
         link: "#",
