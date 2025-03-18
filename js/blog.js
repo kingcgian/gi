@@ -42,7 +42,7 @@ const blogPosts = [
         title: "Documentation Standards",
         excerpt: "Learning about the importance of documentation and team standards.",
         content: "Detailed content about documentation standards...",
-        image: "images/blog/feb 11.png",
+        image: "images/feb11.png",
         week: "week1",
         author: "Your Name",
         date: "2024-01-04",
