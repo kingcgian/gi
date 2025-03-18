@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Internship Experience</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Gian King</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-header">
+            <div class="container">
+                <h1>Weekly Internship Insights</h1>
+                <p>Documenting my journey, challenges, and learnings throughout my internship experience.</p>
+            </div>
+        </section>
+
+        <section class="blog-content">
+            <div class="container">
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" id="blog-search" placeholder="Search posts...">
+                        <button id="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div class="week-filters">
+                    <button class="week-filter active" data-week="all">All Weeks</button>
+                    <button class="week-filter" data-week="week1">Week 1</button>
+                    <button class="week-filter" data-week="week2">Week 2</button>
+                    <button class="week-filter" data-week="week3">Week 3</button>
+                    <button class="week-filter" data-week="week4">Week 4</button>
+                    <button class="week-filter" data-week="week5">Week 5</button>
+                    <!-- Weeks 6-10 ready for future use -->
+                    <button class="week-filter" data-week="week6" style="display: none;">Week 6</button>
+                    <button class="week-filter" data-week="week7" style="display: none;">Week 7</button>
+                    <button class="week-filter" data-week="week8" style="display: none;">Week 8</button>
+                    <button class="week-filter" data-week="week9" style="display: none;">Week 9</button>
+                    <button class="week-filter" data-week="week10" style="display: none;">Week 10</button>
+                </div>
+
+                <div class="blog-layout">
+                    <div class="blog-main">
+                        <div class="blog-grid">
+                            <!-- Blog posts will be dynamically inserted here by JavaScript -->
+                        </div>
+                        <div class="load-more">
+                            <button class="load-more-btn">Load More</button>
+                        </div>
+                    </div>
+
+                    <div class="blog-sidebar">
+                        <div class="sidebar-widget">
+                            <h3>Popular Posts</h3>
+                            <ul class="popular-posts">
+                                <li>
+                                    <a href="#">
+                                        <div class="post-image">
+                                            <img src="images/blog/dev-setup.jpg" alt="Development Environment">
+                                        </div>
+                                        <div class="post-info">
+                                            <h4>Setting Up Development Environment</h4>
+                                            <span>Week 1</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="post-image">
+                                            <img src="images/blog/api.jpg" alt="API Integration">
+                                        </div>
+                                        <div class="post-info">
+                                            <h4>API Integration Work</h4>
+                                            <span>Week 2</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="post-image">
+                                            <img src="images/blog/performance.jpg" alt="Performance Optimization">
+                                        </div>
+                                        <div class="post-info">
+                                            <h4>Performance Optimization</h4>
+                                            <span>Week 2</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h3>Categories</h3>
+                            <ul class="category-list">
+                                <li><a href="#">Development <span>(12)</span></a></li>
+                                <li><a href="#">Best Practices <span>(8)</span></a></li>
+                                <li><a href="#">Tools <span>(5)</span></a></li>
+                                <li><a href="#">Collaboration <span>(7)</span></a></li>
+                                <li><a href="#">Architecture <span>(4)</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h3>Tags</h3>
+                            <div class="tag-cloud">
+                                <a href="#" class="tag">Git</a>
+                                <a href="#" class="tag">Testing</a>
+                                <a href="#" class="tag">API</a>
+                                <a href="#" class="tag">Performance</a>
+                                <a href="#" class="tag">Documentation</a>
+                                <a href="#" class="tag">Tools</a>
+                                <a href="#" class="tag">Database</a>
+                                <a href="#" class="tag">Development</a>
+                                <a href="#" class="tag">Collaboration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Gian King. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+</body>
+</html> 
