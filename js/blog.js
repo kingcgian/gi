@@ -6,7 +6,7 @@ const blogPosts = [
         title: "Setting Up Development Environment",
         excerpt: "First day experience setting up my workstation and getting familiar with the development tools.",
         content: "Detailed content about setting up the development environment...",
-        image: "images/blog/feb 11.png",
+        image: "images/blog/feb 13.png",
         week: "week1",
         author: "Your Name",
         date: "2024-01-01",
