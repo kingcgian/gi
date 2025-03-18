@@ -30,7 +30,7 @@ const blogPosts = [
         title: "Frontend Development Basics",
         excerpt: "I worked with Vue.js for frontend development in the FranchiseList project during my internship. I used Vue to build dynamic and interactive user interfaces, ensuring the application was both responsive and user-friendly. The framework's incremental approach allowed me to integrate it seamlessly into the project, enabling smooth navigation and real-time data updates. The reactive data binding system was particularly useful, as it kept the UI in sync with any changes to the data. Vues component-based architecture helped me organize the project efficiently, making it scalable and maintainable as the project grew.",
         content: "Detailed content about code review process...",
-        image: "images/blog/Feb 12.png",
+        image: "images/blog/Feb12.png",
         week: "week1",
         author: "Your Name",
         date: "2024-01-03",
